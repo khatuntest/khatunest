@@ -1,0 +1,167 @@
+*{
+    padding :0;
+    margin : 0;
+    color : white;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: rgb(28, 59, 59);
+    display: flex;
+   
+
+}
+.profile{
+   display: flex;
+   align-items: center;
+   
+}
+.profile h2{
+    padding-left:20px ;
+    font-family:serif;
+    text-transform: capitalize;
+}
+.menu{
+    background-color: rgb(38, 93, 93);
+   width : 50px;
+   height : 100vh;
+   padding:20px;
+   overflow: hidden;
+   transition: .5s;
+   
+}
+.menu:hover{
+    width: 260px;
+}
+ul {
+    list-style-type: none;
+    position: relative;
+    height: 95%;
+    
+}
+
+ul li a{
+    font-size: 20px;
+   display: block;
+    display: flex;
+    border-radius: 8px;
+    margin : 5px;
+    height : 25px;
+    padding : 10px;
+    text-decoration: none;
+    align-items: center;
+    gap: 30px;
+    
+}
+ul li a:hover{
+    background-color : rgb(109, 170, 170);
+}
+.log_out{
+    position :absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.log_out a{
+    background-color:red;
+
+}
+ul li i {
+    font-size: 25px;
+}
+.image{
+    width: 60px;
+    height: 60px;
+    border-radius:30% ;
+    overflow: hidden;
+    border: 3px inset white;
+    flex-shrink: 0;
+
+}
+.image img{
+    width:100%;
+    height: 100%;
+    
+}
+.content {
+    width: 100%;
+    margin :10px;
+}
+.title {
+    background-color:  rgb(79, 233, 233);
+    display: flex;
+    padding: 10px ;
+    margin: 10px 5px;
+    border-radius:8px ;
+    align-items: center ;
+    justify-content: space-between;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.boxes .box{
+    background-color: rgb(79, 137, 137);
+    flex-basis: 150px;
+    height: 150px;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.boxes .box:hover , td:hover{
+    background-color:rgb(90, 156, 156) ;
+}
+.boxes .box .data{
+   align-items: center;
+}
+.boxes .box .data span{
+    font-size: 30px;
+}
+.boxes .box i{
+    font-size: 30px;
+}
+.title2 {
+    background-color:  rgb(79, 233, 233);
+    display: flex;
+    padding: 10px ;
+    margin: 10px 5px;
+    border-radius:8px ;
+    align-items: center ;
+    justify-content: space-between;
+}
+table{
+    width: 100%;
+    border-radius: 8px;
+    padding : 1px;
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-spacing: 7px;
+
+}
+td,th{
+    background-color: rgb(25, 87, 87);
+    height: 40px;
+    border-radius: 8px;
+}
+th{
+    background-color: rgb(114, 210, 210);
+}
+.head{
+    background-color: rgb(79, 233, 233);
+    height: 30px;
+
+   
+}
+.price , .count{
+    background-color: rgb(148, 234, 56);
+    color:black;
+    border-radius: 7px;
+    padding:6px;
+}
+.count{
+    background-color: gold;
+}
