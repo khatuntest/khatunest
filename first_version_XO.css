@@ -1,0 +1,39 @@
+
+body{
+    background-color: rgb(134, 127, 133);
+}
+.game{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+   
+}
+
+#title{
+    background-color: rgb(219, 127, 192);
+    margin: 5px 0px;
+    padding-top: 20px ;
+    padding-bottom:10px ;
+    height: 40px;
+    font-size: 30px;
+}
+span{
+    color: rgb(68, 70, 70);
+}
+.square{
+    width: 218px;
+    height: 168px;
+    background-color:rgb(219, 127, 192);
+    float: left;
+    margin: 7px;
+    font-size: 90px;
+    padding-top: 50px;
+   
+   
+}
+.square:hover{
+    background-color: rgb(228, 221, 226);
+    cursor:pointer;
+}
